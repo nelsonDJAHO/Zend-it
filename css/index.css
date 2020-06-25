@@ -1,0 +1,105 @@
+.image-container {
+    background: url('../images/welcome2.jpg') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.image-container h3 {
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+}
+
+.image-container h7 {
+    color: #fff;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-box h4 {
+    font-weight: bold;
+}
+
+.form-box .form-input {
+    position: relative;
+}
+
+.form-box .form-input input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    outline: none;
+    padding-left: 45px;
+}
+
+.form-box .form-input span {
+    position: absolute;
+    top: 8px;
+    padding-left: 20px;
+    color: #777;
+}
+
+
+.form-box .form-input input ::placeholder {
+    padding-left: 0px;
+}
+
+form-box .form-input input ::focus,
+form-box .form-input input ::valid {
+    border-bottom: 2px solid #48403d;
+}
+
+.forget-link {
+    color: gray;
+    font-size: 15px;
+}
+
+.form-box button[type="submit"] {
+    border: none;
+    cursor: pointer;
+    background-color: #4834A5;
+    width: 110px;
+    height: 40px;
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.form-box button[type="submit"]:hover {
+    box-shadow: 0px 9px 10px -2px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 0px 9px 10px -2px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 0px 9px 10px -2px rgba(0, 0, 0, 0.55);
+    background-image: radial-gradient(circle at bottom left, white, #4834A5);
+}
+
+.form-box .join-link {
+    border: solid 1px;
+    cursor: pointer;
+    background-color: #fff;
+    width: 110px;
+    height: 40px;
+    color: #4834A5;
+    border-color: #4834A5;
+    border-radius: 20px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.form-box .join-link:hover {
+    box-shadow: 0px 9px 10px -2px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 0px 9px 10px -2px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 0px 9px 10px -2px rgba(0, 0, 0, 0.55);
+}
+
+.fa {
+    color: gray;
+}
