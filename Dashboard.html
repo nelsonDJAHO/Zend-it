@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <Script src="jQuery/jquery-3.5.1.js"></Script>
+        <!-- <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css"> -->
+        <link rel="stylesheet" href="css/Style.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!--Barre des titres-->
+            <div class="row">
+                <div class="col-lg-2" id="logo">
+                    <img src="Images/logo.jpeg" alt="Logo" width="50" height="50">
+                    zendit
+                </div>
+                <div class="col-lg-7" >
+                    <i class="fa fa-bars"></i>
+                    <input type="search" id="search" name="search" placeholder="Rechercher">
+                </div>
+                <div class="col-lg-3">
+                    <i class="fa fa-bell icone"></i>
+                    <i class="fa fa-cog icone"></i>
+                    <i class="fa fa-user icone"> Djiyehoue Franck</i> 
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+
+            <!--Le corps du site-->
+            <div class="row">
+
+                <!--Le menu à gauche-->
+                <div class="col-lg-2 contenu">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-home"></i><Strong>Dashboard</Strong></a></li>
+                        <li><i class="fa fa-envelope"></i><Strong>Configurations</Strong>
+                            <Ul>
+                                <Li><a href="#">Company</a></Li>
+                                <Li><a href="#">Sucursal</a></Li>
+                                <Li><a href="#">Sms api</a></Li>
+                                <Li><a href="#">Smpt server</a></Li>
+                            </Ul>
+                        </li>
+                        <li><i class="fa fa-shield"></i><Strong>Security</Strong>
+                            <Ul>
+                                <Li><a href="#">Users</a></Li>
+                                <Li><a href="#">Rules</a></Li>
+                            </Ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!--Le contenu-->
+                <div class="col-lg-10 contenu" id="contenu">
+                    Dashboard
+                    <div class="row space">
+                        <Div class="col-lg-3" >
+                            <small>Total sms bought</small>
+                            <h2>7000</h2>
+                        </Div>
+                        <Div class="col-lg-3">
+                            <small>Total sms sent</small>
+                            <h2>1789</h2>
+                        </Div>
+                        <Div class="col-lg-3">
+                            <small>Total sms remaining</small>
+                            <h2>5211</h2>
+                        </Div>
+                        <Div class="col-lg-3">
+                            <button type="button" class="btn-info">View details</button>
+                        </Div>
+                    </div>
+                    
+                    <div class="row space">
+                        <Div class="col-lg-6">
+                            <div>Balance stats</div>
+                            <div><img src="Images/Diagramme.png" alt="Diagramme"></div>
+                        </Div>
+                        <Div class="col-lg-6">
+                            <div>Trafic</div>
+                            <div><img src="Images/AreaChart.png" alt="Diagramme"></div>
+                        </Div>
+                    </div>
+                    Connection history
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,69 @@
+body
+{
+    background: white; 
+}
+
+i
+{
+    margin-right: 10px;
+}
+
+/*barre des titres*/
+#logo
+{
+    padding-left: 20px;
+    margin: auto;
+}
+
+#search
+{
+    padding-left: 20px;
+    margin: 10px;
+    border-radius: 50px;
+    border: 0px;
+    outline: none;
+    background: rgb(240, 238, 238);
+}
+
+.icone
+{
+    margin: 15px; 
+}
+
+/*Corps de la page*/
+.contenu
+{
+    padding-top: 20px;
+}
+
+#contenu
+{
+    padding-left: 40px;
+    background: rgb(240, 238, 238);
+}
+
+
+.space
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    color: black;
+}
+
+button
+{
+    border: 1px solid;
+    border-radius: 50px;
+    width: 150px;
+    margin: 20px auto;
+}
